@@ -8,8 +8,10 @@ namespace HW7._2
 
         public void Show()
         {
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Имя книги: {0} ", Name);
             //Console.WriteLine($"Имя книги: {Name} ") ;
+            Console.ResetColor();
         }
     }
 
@@ -19,7 +21,9 @@ namespace HW7._2
 
         public void Show()
         {
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("Заголовок: {0}", titleBook);
+            Console.ResetColor();
         }
     }
 
@@ -29,7 +33,9 @@ namespace HW7._2
 
         public void Show()
         {
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Имя автора: {0}", AuthorName);
+            Console.ResetColor();
         }
     }
 
@@ -39,7 +45,9 @@ namespace HW7._2
 
         public void Show()
         {
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("Содержание: {0} ", ContentBook);
+            Console.ResetColor();
         }
     }
 
