@@ -23,7 +23,7 @@ namespace HW7._1
         }
         public double PerimeterCalculator()              //Метод вычисляющие Переметр прямоугольника
         {
-            return 2 * AreaCalculator();
+            return 2 * (side1+side2);
         }
         public double Area
         {                                                    // получить площад
